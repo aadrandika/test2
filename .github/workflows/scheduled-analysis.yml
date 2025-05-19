@@ -28,7 +28,7 @@ jobs:
           python run_analysis.py
 
       - name: Upload output artifacts
-        uses: actions/upload-artifact@4c45e839bc54a9f4f1c25dc4d2a872544b4e3f19
+        uses: actions/upload-artifact@v2
         with:
           name: analysis-results
           path: ./output/
